@@ -502,7 +502,7 @@ def RXGate(fig, theta, qstate, color="red"):
 
 
 def load_exercices():
-    exercices = pkl.load(open("exercices.pickle", "rb"))
+    exercices = pkl.load(open("mini-defi-sdb/exercices.pickle", "rb"))
     return exercices
 
 
